@@ -88,12 +88,17 @@ const App = () => {
               </button>
 
               {/* Resume CTA */}
-              <button className="flex items-center justify-center gap-2 rounded-lg h-9 md:h-10 px-3 md:px-4 bg-[#137fec] text-white text-sm font-bold shadow-lg shadow-[#137fec]/20 hover:bg-[#137fec]/90 transition-all active:scale-95">
+              <a
+                href="/resume-wiz.pdf"
+                download={"wisdom_njimogu_resume"}
+                className="flex items-center justify-center gap-2 rounded-lg h-9 md:h-10 px-3 md:px-4 bg-[#137fec] text-white text-sm font-bold shadow-lg shadow-[#137fec]/20 hover:bg-[#137fec]/90 transition-all active:scale-95"
+              >
                 <Download className="w-4 h-4" />
                 <span className="hidden sm:inline">Resume</span>
-              </button>
+              </a>
 
               {/* Mobile Menu Hamburger Toggle */}
+
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="lg:hidden p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors text-slate-600 dark:text-slate-400"
