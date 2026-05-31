@@ -39,7 +39,7 @@ const App = () => {
     <div className={`${isDarkMode ? "dark" : ""}`}>
       <div className=" flex  w-full flex-col bg-[#f6f7f8] dark:bg-[#101922] text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300 fixed z-30">
         {/* Navigation Header */}
-        <header className="flex items-center justify-between border-b border-solid border-slate-200 dark:border-slate-800 px-4 md:px-10 py-4 sticky top-0 bg-[#f6f7f8]/90 dark:bg-[#101922]/90 backdrop-blur-md z-[100]">
+        <header className="flex items-center justify-between border-b border-solid border-slate-200 dark:border-slate-800 px-10 lg:px-20 xl:px-50 py-4 sticky top-0 bg-[#f6f7f8]/90 dark:bg-[#101922]/90 backdrop-blur-md z-[100]">
           {/* Logo Section */}
           <div className="flex items-center gap-3">
             <div className="size-8 bg-[#137fec] rounded flex items-center justify-center text-white shadow-lg shadow-[#137fec]/20">

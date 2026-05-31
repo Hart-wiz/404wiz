@@ -60,8 +60,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-slate-200 dark:border-[#283039] text-center text-xs text-slate-500">
-          © {new Date().getFullYear()} 404wiz. Built with Next.js & Tailwind
-          CSS.
+          © {new Date().getFullYear()} 404wiz
         </div>
       </footer>
     </div>

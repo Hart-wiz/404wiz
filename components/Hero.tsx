@@ -3,16 +3,16 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section id="home" className="px-6 lg:px-40 py-12 pt-30">
-      <div className="flex flex-col gap-10 lg:flex-row items-center lg:items-center">
+    <section id="home" className="lg:px-20 xl:px-50  py-12 xl:py-50 pt-30 bg-orange-100 ">
+      <div className=" flex flex-col gap-10 lg:flex-row max-lg:items-center  ">
         {/* Headshot with Neon Accent */}
         <div className="relative group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-[#00f2ff] to-[#137fec] rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
-          <div className="relative w-full max-w-[420px] aspect-square bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden neon-border-cyan border border-white/10">
+          {/* <div className="absolute -inset-2 bg-gradient-to-r  rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div> */}
+          <div className="relative w-full max-w-[200px] bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden neon-border-cyan border border-white/10">
             <img
               alt="Professional headshot"
               className="w-full h-full object-cover"
-              src="/wiz-portrait-glass.png"
+              src="/wiz-profile-pics.webp"
             />
           </div>
         </div>

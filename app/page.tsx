@@ -81,7 +81,7 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-screen font-sans selection:bg-[#137fec]/30 bg-[#f6f7f8] dark:bg-[#101922] transition-colors duration-300">
+    <div className="min-h-screen font-sans selection:bg-[#137fec]/30 bg-[#f6f7f8] dark:bg-[#101922] transition-colors duration-300 ">
       {/* <CustomStyles /> */}
       
     
@@ -89,6 +89,7 @@ export default function App() {
       <main className="flex-1">
         <Hero />
         
+            <Expertise />
         {/* Featured Projects */}
         <section id="projects" className="px-6 lg:px-40 py-20 bg-slate-50 dark:bg-[#0c141b]">
           <div className="flex items-end justify-between mb-12">
@@ -107,7 +108,6 @@ export default function App() {
           </div>
         </section>
 
-        <Expertise />
       </main>
 
     </div>

@@ -6,8 +6,8 @@ import { Cloud, Cpu, Database, Layout } from 'lucide-react'
 export default function Expertise() {
 
     const skills = [
-        { title: 'Frontend', icon: Layout, desc: 'React, Vue, Tailwind, TypeScript', color: 'text-[#137fec]' },
-        { title: 'Backend', icon: Database, desc: 'Node, Python, Go, GraphQL', color: 'text-[#00f2ff]' },
+        { title: 'Frontend', icon: Layout, desc: 'React, Tailwind, javascript, TypeScript', color: 'text-[#137fec]' },
+        { title: 'Backend', icon: Database, desc: 'Node, Python, java, postgresql, GraphQL', color: 'text-[#00f2ff]' },
         { title: 'Cloud', icon: Cloud, desc: 'AWS, Docker, Kubernetes, CI/CD', color: 'text-[#bc13fe]' },
         { title: 'Architecture', icon: Cpu, desc: 'Microservices, DDD, Serverless', color: 'text-[#137fec]' },
       ];
