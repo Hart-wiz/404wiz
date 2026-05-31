@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section id="home" className="lg:px-20 xl:px-50  py-12 xl:py-50 pt-30 bg-orange-100 ">
+    <section id="home" className="lg:px-20 xl:px-50 max-md:px-10 py-12 xl:py-50 pt-30 bg-orange-100 ">
       <div className=" flex flex-col gap-10 lg:flex-row max-lg:items-center  ">
         {/* Headshot with Neon Accent */}
         <div className="relative group">

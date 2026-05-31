@@ -31,12 +31,12 @@ export default function Footer() {
             <p className="text-sm text-slate-500 max-w-xs text-center md:text-left flex flex-col">
               Designing and developing digital products that matter. Available
               for freelance projects.
-              <div className="pt-5 flex flex-col">
+              <span className="pt-5 flex flex-col">
                 <span className="font-bold ">call: +2348030890344</span>
                 <span className="font-bold">
                   email: njimoguwisdom@gmail.com
                 </span>
-              </div>
+              </span>
             </p>
           </div>
           <div className="flex gap-6 ">

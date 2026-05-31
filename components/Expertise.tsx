@@ -1,5 +1,6 @@
 import React from 'react'
 import { Cloud, Cpu, Database, Layout } from 'lucide-react'
+import Link from "next/link";
 
 
 
@@ -49,7 +50,9 @@ export default function Expertise() {
           </div>
         </div>
         <button className="w-full sm:w-fit px-8 h-12 rounded-lg bg-[#283039] text-white font-bold hover:bg-slate-700 transition-colors">
+          <Link href="/experience"  >
           View Full Experience
+          </Link>
         </button>
       </div>
     </div>
