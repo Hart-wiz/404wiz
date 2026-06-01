@@ -5,7 +5,7 @@ export default function ContactSuccessPage() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-200 selection:text-blue-900 pt-10">
       <main className="flex-1 max-w-3xl mx-auto w-full px-6 py-16 md:py-24">
-        <div className="rounded-[2rem] border border-slate-200 bg-white p-10 shadow-sm shadow-slate-200/50 text-center">
+        <div className="rounded-4xl border border-slate-200 bg-white p-10 shadow-sm shadow-slate-200/50 text-center">
           <div className="mx-auto mb-8 flex h-20 w-20 items-center justify-center rounded-full bg-blue-50 text-blue-600">
             <CheckCircle2 className="h-10 w-10" />
           </div>
