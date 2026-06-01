@@ -53,8 +53,7 @@ export default function Footer() {
             Services
           </p>
           <ul className="space-y-3 text-sm text-slate-700 dark:text-slate-300">
-            <li>Frontend engineering</li>
-            <li>Backend engineering</li>
+            <li>Full-stack engineering</li>
             <li>API design & integration</li>
             <li>Technical consulting</li>
             <li>Portfolio & product websites</li>
