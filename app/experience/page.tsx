@@ -77,11 +77,13 @@ const SKILL_GROUPS = [
   {
     title: "Languages",
     icon: <Code className="w-4 h-4" />,
+    highlighted: ["TypeScript", "Python"],
     skills: [
       "TypeScript",
       "JavaScript (ES6+)",
       "Python",
       "Go",
+      "C++",
       "SQL",
       "HTML/CSS",
     ],
@@ -89,8 +91,8 @@ const SKILL_GROUPS = [
   {
     title: "Frameworks & Libraries",
     icon: <Layers className="w-4 h-4" />,
-    highlighted: ["React.js", "Next.js"],
-    skills: ["Node.js", "Express", "NestJS", "Tailwind CSS", "Django", "Redux"],
+    highlighted: ["React.js", "Next.js", "FastAPI", "Django"],
+    skills: ["Node.js", "Express", "NestJS", "Tailwind CSS", "Redux"],
   },
   {
     title: "Cloud & DevOps",
