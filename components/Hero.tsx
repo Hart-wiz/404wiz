@@ -3,12 +3,15 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section id="home" className="lg:px-20 xl:px-50 max-md:px-10 py-12 xl:py-50 pt-30 bg-orange-100 ">
+    <section
+      id="home"
+      className="lg:px-20 xl:px-50 max-md:px-10 py-12  xl:py-30 pt-30 bg-gray-100 "
+    >
       <div className=" flex flex-col gap-10 lg:flex-row max-lg:items-center  ">
         {/* Headshot with Neon Accent */}
         <div className="relative group">
           {/* <div className="absolute -inset-2 bg-gradient-to-r  rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div> */}
-          <div className="relative w-full max-w-[200px] bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden neon-border-cyan border border-white/10">
+          <div className="relative w-full max-w-[200px] max-h-[220px] max-md:rounded-full bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden neon-border-cyan border border-white/10">
             <img
               alt="Professional headshot"
               className="w-full h-full object-cover"
