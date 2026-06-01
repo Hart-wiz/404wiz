@@ -199,7 +199,7 @@ export default function ContactPage() {
 
                 {/* Hidden inputs for formsubmit.co */}
                 <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="/contact/success" />
+                <input type="hidden" value="/contact/success" />
 
                 <button
                   type="submit"
