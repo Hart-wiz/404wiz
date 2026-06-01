@@ -24,8 +24,8 @@ const WORK_EXPERIENCE = [
   {
     id: 1,
     title: "Lead Software Engineer",
-    company: "JengaTech technologies",
-    period: "2025 — Present",
+    company: "Weconet technologies",
+    period: "2026 — Present",
     isCurrent: true,
     logo: "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=100&h=100&fit=crop&auto=format",
     responsibilities: [
@@ -36,9 +36,22 @@ const WORK_EXPERIENCE = [
   },
   {
     id: 2,
+    title: "Lead Software Engineer",
+    company: "JengaTech technologies",
+    period: "2025 — 2026",
+    isCurrent: false,
+    logo: "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=100&h=100&fit=crop&auto=format",
+    responsibilities: [
+      "Led the architecture and development of a microservices-based financial platform handling over 1M monthly transactions.",
+      "Mentored a team of 8 junior and mid-level developers, implementing rigorous code review processes and CI/CD best practices.",
+      "Reduced AWS infrastructure costs by 35% through container optimization and serverless migration.",
+    ],
+  },
+  {
+    id: 3,
     title: "Senior Software Instructor/Developer",
     company: "Optimum computers",
-    period: "2018 — 2021",
+    period: "2024 — 2025",
     isCurrent: false,
     logo: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=100&h=100&fit=crop&auto=format",
     responsibilities: [
@@ -47,10 +60,10 @@ const WORK_EXPERIENCE = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Jenior Software Fellow",
     company: "IG hub technologies",
-    period: "2016 — 2018",
+    period: "2023 — 2024",
     isCurrent: false,
     logo: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=100&h=100&fit=crop&auto=format",
     responsibilities: [
@@ -179,7 +192,16 @@ const App = () => {
     </div>
   );
 
-  const SkillCard = ({ group }: { group: { title: string; icon: JSX.Element; skills: string[]; highlighted?: string[] } }) => (
+  const SkillCard = ({
+    group,
+  }: {
+    group: {
+      title: string;
+      icon: JSX.Element;
+      skills: string[];
+      highlighted?: string[];
+    };
+  }) => (
     <div className="bg-white dark:bg-slate-800/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-[#137fec]/30 transition-all duration-300">
       <h4 className="text-lg font-bold mb-4 flex items-center gap-2">
         <span className="text-[#137fec]">{group.icon}</span>

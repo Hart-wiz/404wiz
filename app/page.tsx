@@ -1,9 +1,10 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { ArrowRight } from "lucide-react";
 import Hero from "@/components/Hero";
 import ProjectCard from "@/components/ProjectCard";
 import Expertise from "@/components/Expertise";
+import Certifications from "@/components/Certifications";
 
 /**
  * CUSTOM STYLES
@@ -86,7 +87,7 @@ export default function App() {
           id="projects"
           className="px-6 lg:px-40 py-20 bg-slate-50 dark:bg-[#0c141b]"
         >
-          <div className="flex items-end justify-between mb-12">
+          <div className="flex items-end justify-between mb-12" id="projects">
             <div className="flex flex-col gap-2">
               <h2 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">
                 Featured Projects
@@ -106,6 +107,7 @@ export default function App() {
             ))}
           </div>
         </section>
+        <Certifications />
       </main>
     </div>
   );

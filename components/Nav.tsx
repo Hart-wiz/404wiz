@@ -1,21 +1,13 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import {
-  Terminal,
-  Download,
-  Menu,
-  X,
-  Globe,
-  Mail,
-  Share2,
-} from "lucide-react";
+import { Terminal, Download, Menu, X, Globe, Mail, Share2 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const NAV_ITEMS = [
   { name: "Home", path: "/" },
-  { name: "Projects", path: "/projects" },
+  { name: "Projects", path: "#projects" },
   { name: "Experiences", path: "/experience" },
   { name: "Contact", path: "/contact" },
 ];
@@ -38,10 +30,8 @@ const App = () => {
   return (
     <div className={`${isDarkMode ? "dark" : ""}`}>
       <div className="flex w-full flex-col bg-[#f6f7f8] dark:bg-[#101922] text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300 fixed z-30">
-
         {/* Navigation Header */}
         <header className="flex items-center justify-between border-b border-solid border-slate-200 dark:border-slate-800 px-10 lg:px-20 xl:px-50 py-4 sticky top-0 bg-[#f6f7f8]/90 dark:bg-[#101922]/90 backdrop-blur-md z-[100]">
-
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="size-8 bg-[#137fec] rounded flex items-center justify-center text-white shadow-lg shadow-[#137fec]/20">
@@ -53,7 +43,6 @@ const App = () => {
           </div>
 
           <div className="flex items-center gap-2 md:gap-8">
-
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
               {NAV_ITEMS.map((item, idx) => (
@@ -77,7 +66,6 @@ const App = () => {
 
             {/* Actions */}
             <div className="flex items-center gap-2 md:gap-4">
-
               {/* Resume */}
               <a
                 href="/resume-wiz.pdf"
@@ -110,7 +98,6 @@ const App = () => {
             isMenuOpen ? "visible opacity-100" : "invisible opacity-0"
           }`}
         >
-
           {/* Backdrop */}
           <div
             className="absolute inset-0 bg-black/20 dark:bg-black/40 backdrop-blur-sm"
