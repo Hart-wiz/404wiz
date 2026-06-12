@@ -52,6 +52,18 @@ export default function App() {
       ],
     },
     {
+      title: "Qranta",
+      description:
+        "Its an opensource realtime qr code generator which has two interface for generating secure qrcode",
+      link: "https://qranta.com",
+      img: "/assets/qrantagenerate.png",
+      tags: [
+        { name: "react", color: "bg-[#137fec]/10 text-[#137fec]" },
+        { name: "tailwindcss", color: "bg-[#00f2ff]/10 text-[#00f2ff]" },
+        { name: "opensrc", color: "bg-[#bc13fe]/10 text-[#bc13fe]" },
+      ],
+    },
+    {
       title: "Injob",
       description:
         "Real-time job and edu platform, meet your desired opportunity",
